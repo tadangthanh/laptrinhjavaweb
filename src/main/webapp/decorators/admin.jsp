@@ -14,8 +14,17 @@
 	rel="stylesheet" />
 <link href="<c:url value='./template/admin/css/styles.css'/>"
 	rel="stylesheet" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
 	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script
+	src='<c:url value="./template/paging/jquery.twbsPagination.js"/>'></script>
+	<script
+	src="<c:url value="/ckeditor/ckeditor.js"/>"></script>
 </head>
 <body class="sb-nav-fixed">
 	<!-- header -->
@@ -38,5 +47,4 @@
 <script
 	src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
 	crossorigin="anonymous"></script>
-<script src="./template/admin/js/datatables-simple-demo.js"></script>
 </html>
